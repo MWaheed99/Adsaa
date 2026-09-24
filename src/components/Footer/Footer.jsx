@@ -46,18 +46,18 @@ export default function Footer() {
               <h4 className="text-[15px] font-bold text-white">استكشف</h4>
             </div>
             <ul className="space-y-4 text-sm">
-              <li className="group flex cursor-pointer items-center gap-2 pr-2 text-neutral-500 transition-all duration-300 ease-in-out hover:-translate-x-2 hover:text-orange-500">
+              <Link to="/" className="group flex cursor-pointer items-center gap-2 pr-2 text-neutral-500 transition-all duration-300 ease-in-out hover:-translate-x-2 hover:text-orange-500">
                 <i className="fa-solid fa-angle-left icon"></i>
                 <span>الرئيسية</span>
-              </li>
-              <li className="group flex cursor-pointer items-center gap-2 pr-2 text-neutral-500 transition-all duration-300 ease-in-out hover:-translate-x-2 hover:text-orange-500">
+              </Link>
+              <Link to="/blogs" className="group flex cursor-pointer items-center gap-2 pr-2 text-neutral-500 transition-all duration-300 ease-in-out hover:-translate-x-2 hover:text-orange-500">
                 <i className="fa-solid fa-angle-left icon"></i>
                 <span>المدونة</span>
-              </li>
-              <li className="group flex cursor-pointer items-center gap-2 pr-2 text-neutral-500 transition-all duration-300 ease-in-out hover:-translate-x-2 hover:text-orange-500">
+              </Link>
+              <Link to="/about" className="group flex cursor-pointer items-center gap-2 pr-2 text-neutral-500 transition-all duration-300 ease-in-out hover:-translate-x-2 hover:text-orange-500">
                 <i className="fa-solid fa-angle-left icon"></i>
                 <span>من نحن</span>
-              </li>
+              </Link>
             </ul>
           </div>
 

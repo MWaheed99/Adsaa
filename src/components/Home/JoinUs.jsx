@@ -27,9 +27,9 @@ export default function JoinUs() {
           <input
             type="email"
             placeholder="ادخل بريدك الإلكتروني"
-            className="h-[57px] flex-1 rounded-2xl border border-white/10 bg-[#0a0a0a] px-6 text-right text-sm text-white transition-all duration-300 placeholder:text-neutral-500 focus:border-orange-500 focus:outline-none"
+            className="flex-1 rounded-2xl border border-white/10 bg-[#0a0a0a] px-6 py-4 text-right text-sm text-white transition-all duration-300 placeholder:text-neutral-500 focus:border-orange-500 focus:outline-none"
           />
-          <button className="h-[57px] rounded-2xl bg-[linear-gradient(to_right,#ff7a00,#ff4d00)] px-8 text-sm font-bold text-white transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-[0_8px_30px_rgba(249,115,22,0.45)] sm:w-36">
+          <button className="h-15 rounded-2xl bg-[linear-gradient(to_right,#ff7a00,#ff4d00)] px-8 text-sm font-bold text-white transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-[0_8px_30px_rgba(249,115,22,0.45)] sm:w-36">
             اشترك الآن
           </button>
         </div>

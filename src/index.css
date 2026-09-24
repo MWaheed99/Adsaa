@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+@font-face {
+  font-family: "Tajawal";
+  src: url("../public/Tajawal/Tajawal-Bold.ttf") ;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Tajawal";
+  src: url("../public/Tajawal/Tajawal-Medium.ttf") ;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Tajawal";
+  src: url("../public/Tajawal/Tajawal-Regular.ttf") ;
+  font-weight: normal;
+}
+
+@theme{
+  --font-tajawal: "Tajawal", sans-serif;
+}
+
+
+
+body{
+  font-family: var(--font-tajawal);
+  padding-top: 70px;
+  direction: rtl;
+}
+
+.active{
+  background-color: #f97316;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.res-nav.active{
+  background-color: #2E1E14;
+  border: 1px solid #f97316;
+  padding: 15px;
+  border-radius: 20px;
+}
+.group{
+  transition: all 0.3s ease-in-out;
+}
+
+.group .icon{
+  display: none;
+  font-size: 12px;
+}
+
+.group:hover .icon{
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
